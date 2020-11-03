@@ -13,10 +13,23 @@ p {
 
 header {
     font-family: 'Questrial', sans-serif;
-    font-size: 30px;
-    font-style: bold;
-    text-shadow: 1px 1px 2px #f6972b;
-    color: #F09E41;
+    font-size: 28px;
+    font-style: bolder;
+    text-shadow: 1px 1px 3px white;
+    color: #0D4861;   
+    /* color: #F09E41; */
+}
+
+p {
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+hr {
+    border-style: inset;
+    border-width: 1px;
+    border-color: #75D6FF;
+    width: 75vw;
 }
 
 i {
@@ -29,7 +42,6 @@ i {
 .navbar {
     background-color: #0D4861;
     background-image: linear-gradient(#75D6FF, #0D4861);
-    opacity: 85%;
     width: 100vw;
 }
 
@@ -89,14 +101,19 @@ i {
     color: darkgray; 
 }
 
-#selfPic {
-    margin: 5px 20px; 
-    border-width: 5rem;
-    border-color: #0D4861;
+img#card {
+    border-radius: 5%;
+    margin: 5px 10px; 
     box-shadow: 2px darkgray;
-    border: solid;
     padding: 0px;
-    width: 15vw;
+    width: 35vw;
+}
+
+img#selfie {
+    border-radius: 5%;
+    margin: 5px 5px;
+    display: inline;
+    width: 20vw;
 }
 
 #khTheme {
