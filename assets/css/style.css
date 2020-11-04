@@ -1,14 +1,17 @@
 body {
     background-image: url(/assets/images/gplaypattern.png);
+    margin: auto;
+    padding: 5px;
 }
 
 p {
-    display: inline-flex;
-    margin-top: 15px;
-    padding: 0px 40px 0px 40px;
+    /* display: inline-flex; */
+    margin: 10px;
+    flex-wrap: wrap;
+    padding: 0px 10px 0px 20px;
     font-family: 'Hind Madurai', sans-serif;
     text-align: justify;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 header {
@@ -20,16 +23,21 @@ header {
     /* color: #F09E41; */
 }
 
-p {
+/* p {
+    margin: 10px;
     display: inline-block;
     flex-wrap: wrap;
-}
+    text-align: justify;
+} */
 
 hr {
-    border-style: inset;
+    margin: 0;
+    padding: 0;
+    border-style: solid;
     border-width: 1px;
     border-color: #75D6FF;
-    width: 75vw;
+    width: 80vw;
+    justify-content: center;
 }
 
 i {
@@ -57,7 +65,8 @@ i {
 
 .container {
     width: 100%;
-    padding: 0px 36px 8px 8px;
+    padding: 0px 12px 6px 6px;
+    margin: 5px
 }
 
 .content {
@@ -101,7 +110,7 @@ i {
     color: darkgray; 
 }
 
-img#card {
+#card {
     border-radius: 5%;
     margin: 5px 10px; 
     box-shadow: 2px darkgray;
@@ -109,11 +118,11 @@ img#card {
     width: 35vw;
 }
 
-img#selfie {
-    border-radius: 5%;
-    margin: 5px 5px;
-    display: inline;
-    width: 20vw;
+#selfie {
+    border-radius: 10%;
+    margin: 2px;
+    width: 50%;
+    height: 50%;
 }
 
 #khTheme {
@@ -134,7 +143,22 @@ img#selfie {
 #submitBtn {
     margin: 20px;
     padding: 5px;
+    font-size: 18px;
+    font-family: 'Questrial', sans-serif;
     background-color: #0D4861;
     width: 10vw;
     height: 10vh;
+    justify-content: center;
+}
+
+#clickBtn {
+    margin: 5px;
+    padding: 2px;
+    font-size: 18px;
+    font-family: 'Questrial', sans-serif;
+    background-color: #0D4861;
+    width: 10vw;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
 }
