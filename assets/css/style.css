@@ -23,12 +23,6 @@ header {
     /* color: #F09E41; */
 }
 
-/* p {
-    margin: 10px;
-    display: inline-block;
-    flex-wrap: wrap;
-    text-align: justify;
-} */
 
 hr {
     margin: 0;
@@ -102,6 +96,13 @@ i {
     color: transparent;
 }
 
+.fa {
+    width: 20px;
+    margin: 2px 6px;
+    padding: 2px;
+
+}
+
 #header {
     font-family: 'Questrial', sans-serif;
     font-size: 40px;
@@ -119,10 +120,12 @@ i {
 }
 
 #selfie {
-    border-radius: 10%;
-    margin: 2px;
-    width: 50%;
-    height: 50%;
+    margin: 30px;
+    padding: 2px;
+    border-radius: 5%;
+    border-color: #0D4861;
+    border-width: 5px;
+    width: 15vw;
 }
 
 #khTheme {
