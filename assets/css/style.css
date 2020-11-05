@@ -1,12 +1,12 @@
 body {
     background-image: url(/assets/images/gplaypattern.png);
     margin: auto;
-    padding: 5px;
+    padding: auto;
 }
 
 p {
     /* display: inline-flex; */
-    margin: 10px;
+    margin: 12px 2px;
     flex-wrap: wrap;
     padding: 0px 10px 0px 20px;
     font-family: 'Hind Madurai', sans-serif;
@@ -27,10 +27,10 @@ header {
 hr {
     margin: 0;
     padding: 0;
-    border-style: solid;
+    border-style: inset;
     border-width: 1px;
-    border-color: #75D6FF;
-    width: 80vw;
+    border-color: lightgray;
+    width: 75vw;
     justify-content: center;
 }
 
@@ -41,10 +41,24 @@ i {
     justify-content: space-evenly;
 }
 
+footer {
+    height: 65px;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 18px;
+    bottom: 0;
+    width: 100vw;
+    background-color: #0D4861 ;
+    color: white;
+    text-align: center;
+}
+
+
 .navbar {
     background-color: #0D4861;
     background-image: linear-gradient(#75D6FF, #0D4861);
     width: 100vw;
+    height: 10vh;
 }
 
 .navbar-brand {
@@ -58,28 +72,22 @@ i {
 }
 
 .container {
-    width: 100%;
+    border-color: #75D6FF;
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px 5px lightgrey;
+    width: 80vw;
     padding: 0px 12px 6px 6px;
-    margin: 5px
+    margin: 15px 50px;
+    justify-content: center;
 }
 
 .content {
     min-height: calc(100vh - 70px);
 }
 
-.footer {
-    height: 55px;
-    justify-content: center;
-    margin-top: 15px;
-    font-size: 15px;
-    bottom: 0;
-    width: 100vw;
-    background-color: #0D4861 ;
-    color: white;
-    text-align: center;
-}
 
 .formlayout {
+    justify-content: center;
     align-items: center;
     margin: 10px;
     padding: 10px;
@@ -94,13 +102,6 @@ i {
     border-width: 2px;
     box-shadow: 0px 5px 2px 0px;
     color: transparent;
-}
-
-.fa {
-    width: 20px;
-    margin: 2px 6px;
-    padding: 2px;
-
 }
 
 #header {
