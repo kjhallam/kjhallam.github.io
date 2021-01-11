@@ -1,14 +1,13 @@
 body {
-    background-image: url(/assets/images/gplaypattern.png);
+    background-image: url(/assets/images/old-gray-cement-wall.jpg);
     margin: auto;
     padding: auto;
 }
 
 p {
-    /* display: inline-flex; */
-    margin: 10px 7px;
+    margin: 12px 12px;
     flex-wrap: wrap;
-    padding: 12px 10px 5px 10px;
+    padding: 0px 10px 6px 10px;
     font-family: 'Hind Madurai', sans-serif;
     text-align: justify;
     font-size: 18px;
@@ -20,8 +19,7 @@ header {
     font-style: bolder;
     text-shadow: 1px 1px 3px white;
     color: #0D4861;   
-    /* color: #F09E41; */
-}
+ }
 
 
 hr {
@@ -41,23 +39,25 @@ i {
 }
 
 footer {
-    height: 70px;
+    height: 65px;
     justify-content: center;
-    margin-top: 17px;
-    padding: 5px;
+    margin: 17px, 0px;
+    padding: 10px;
     font-size: 14px;
     bottom: 0;
     width: 100vw;
-    background-color: #0D4861 ;
+    background-color: #0D4861;
+    position: fixed;
     color: white;
     text-align: center;
 }
 
-
 .navbar {
     background-color: #0D4861;
-    background-image: linear-gradient(#75D6FF, #0D4861);
+    background-image: linear-gradient(#0D4861,#75D6FF);
     width: 100vw;
+    position: fixed;
+    top: 0;
 }
 
 .navbar-brand {
@@ -73,7 +73,7 @@ footer {
     box-shadow: 0px 2px 2px 5px lightgrey;
     justify-content: center;
     align-content: center;
-    margin-top: 20px;
+    margin-top: 115px;
     margin-bottom: 20px;
 }
 
@@ -100,8 +100,6 @@ footer {
     color: transparent;
 }
 
-
-
 #header {
     font-family: 'Questrial', sans-serif;
     font-size: 40px;
@@ -119,12 +117,13 @@ footer {
 }
 
 #selfie {
-    margin: 10px;
+    margin: 8px;
+    padding: 0px;
     border-radius: 15%;
     border-style: inset;
     border-color: #0D4861;
-    border-width: 12px;
-    width: 15vw;
+    border-width: 8px;
+    width: 200px;
 }
 
 #khTheme {
