@@ -78,8 +78,9 @@ img {
     background-color: #0D4861;
     background-image: linear-gradient(#75D6FF, #0D4861);
     width: 100vw;
-    position: fixed;
     top: 0;
+    position: fixed;
+    
 }
 
 .navbar-brand {
