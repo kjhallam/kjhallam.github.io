@@ -98,6 +98,8 @@ img {
     align-content: center;
     margin-top: 115px;
     margin-bottom: 20px;
+    padding: auto;
+    padding-right: 33px;
 }
 
 .content {
