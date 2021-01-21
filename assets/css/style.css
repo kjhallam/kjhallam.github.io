@@ -5,13 +5,13 @@ a {
 }
 
 body {
-    background-image: url(./assets/images/gplaypattern.png);
+    background-image: url(/assets/images/gplaypattern.png);
     margin: auto;
     padding: auto;
 }
 
 p {
-    margin: 12px 14px;
+    margin: 4px 10px, 0px, 10px;
     flex-wrap: wrap;
     padding: 2px 12px 6px 12px;
     font-family: 'Hind Madurai', sans-serif;
@@ -80,6 +80,7 @@ img {
     width: 100vw;
     top: 0;
     position: fixed;
+    z-index: 1;
     
 }
 
@@ -144,8 +145,8 @@ img {
 }
 
 #selfie {
-    margin: 8px;
-    padding: 0px;
+    margin: 8px 25px 0px 0px;
+    padding: 5px;
     border-radius: 15%;
     border-style: inset;
     border-color: #0D4861;
